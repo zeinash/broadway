@@ -11,7 +11,6 @@ h3 {
 
 h1 {
   font-size: 70px;
-  color: white;
 }
 
 h2 {
@@ -26,11 +25,28 @@ p {
   font-size: 14px;
 }
 
+a {
+  color: white;
+}
+
 .link {
   font-size: 18px;
   color: white;
 }
 
-#header {
+.footer {
+  font-size: 11px;
+}
+
+#newyork, #header {
   background-image: url("../images/the-flatiron-building.png");
+  background-size: cover;
+  color: white;
+  background-color: dimgray;
+}
+
+#footer {
+  color: white;
+  background-color: dimgray;
+  text-align: left;
 }
